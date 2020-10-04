@@ -113,4 +113,4 @@ img_2 = cv2.drawKeypoints(test_image,unmatched_points,test_image,(255,0,0))
 cv2.imshow("Image", img_1)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
-os.remove("E:/project/Python123/Similarity Measure/Space Rebooters/train_descriptors")
+os.remove("E:/project/Python123/Similarity Measure/Space Rebooters/train_descriptors")  # you need to change according to your file location

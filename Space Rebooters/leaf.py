@@ -1,3 +1,4 @@
+#import all the necessary libraries before execution of the program
 import cv2
 import matplotlib.pyplot as plt
 import numpy as np
@@ -37,8 +38,9 @@ with open('train_descriptors', 'rb') as f:
     
 
 orb = cv2.ORB_create()
-path='E:/project/Python123/Similarity Measure/Space Rebooters/Testing Image' # you need to change according to your file location
 
+#Initialize Camera
+path='E:/project/Python123/Similarity Measure/Space Rebooters/Testing Image' # you need to change according to your file location
 camera = cv2.VideoCapture(0)
 cv2.namedWindow("test")
 

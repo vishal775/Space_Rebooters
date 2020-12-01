@@ -4,5 +4,5 @@
 
 Detection of Flora on large scale using machine learning algorithms
 
-## License & copyrights
+## License & Copyrights
 © Vishal J M, Sri Ramakrishna Engineering College
